@@ -10,7 +10,7 @@ string s1 = "abcdef";//先序
 string s2 = "cbaedf";//中序
 string s3 = "cbefda";//后序
 
-void fun1(int l1, int r1, int l2, int r2)//分别传入先序的前后下标l1、r1和后序的前下标l2、r2
+void fun1(int l1, int r1, int l2, int r2)//分别传入先序的前后下标l1、r1和中序的前下标l2、r2
 { 
 	if (l1 > r1)//结束条件
 	{
